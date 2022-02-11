@@ -1,4 +1,4 @@
-package __contains_duplicate
+package contains_duplicate
 
 // https://leetcode.com/problems/contains-duplicate/
 
