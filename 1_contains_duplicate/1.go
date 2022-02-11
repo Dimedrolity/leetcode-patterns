@@ -4,13 +4,15 @@ package contains_duplicate
 
 // O(n) time complexity, O(n) space complexity
 func containsDuplicate(nums []int) bool {
-	unique := make(map[int]bool)
+	type void struct{}
+
+	unique := make(map[int]void)
 	for _, num := range nums {
-		if unique[num] {
+		if _, exists := unique[num]; exists {
 			return true
 		}
 
-		unique[num] = true
+		unique[num] = void{}
 	}
 
 	return false
