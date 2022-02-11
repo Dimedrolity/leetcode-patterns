@@ -1,6 +1,9 @@
 package contains_duplicate
 
-// https://leetcode.com/problems/contains-duplicate/
+//также можно использовать готовый set
+//import "github.com/deckarep/golang-set"
+
+//https://leetcode.com/problems/contains-duplicate/
 
 // O(n) time complexity, O(n) space complexity
 func containsDuplicate(nums []int) bool {
