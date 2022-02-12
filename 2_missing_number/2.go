@@ -1,6 +1,6 @@
 package missing_number
 
-// https://leetcode.com/problems/contains-duplicate/
+// https://leetcode.com/problems/missing-number/
 
 // O(n) time complexity, O(1) space complexity
 func missingNumber(nums []int) int {

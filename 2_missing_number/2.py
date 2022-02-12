@@ -1,6 +1,6 @@
 from typing import List
 
-# https://leetcode.com/problems/contains-duplicate/
+# https://leetcode.com/problems/missing-number/
 
 
 class Solution:
