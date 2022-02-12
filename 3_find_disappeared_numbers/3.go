@@ -26,6 +26,7 @@ func findDisappearedNumbers2(nums []int) []int {
 }
 
 // O(n) time complexity, O(1) space complexity
+// подсмотрено на ytube, разобрано
 func findDisappearedNumbers(nums []int) []int {
 	// По условию числа от 1 до n, а индексы от 0 до n-1.
 	// Для каждого числа num пометим индекс num-1 с помощью отрицания числа
